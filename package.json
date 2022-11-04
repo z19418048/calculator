@@ -1,0 +1,30 @@
+{
+  "name": "web-playground",
+  "version": "1.0.0",
+  "description": "an empty static web project for beginners",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browser-sync start --server 'public' --files 'public'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IlhamTahir/web-playground.git"
+  },
+  "keywords": [
+    "web",
+    "html5",
+    "css3",
+    "speedcode"
+  ],
+  "author": "IlhamTahir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IlhamTahir/web-playground/issues"
+  },
+  "homepage": "https://github.com/IlhamTahir/web-playground#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "browser-sync": "^2.27.10"
+  }
+}
